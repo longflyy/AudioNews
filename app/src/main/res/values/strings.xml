@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Audio News</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="news_title">
+        <item>Apple patent case: Wisconsin university wins huge damages</item>
+        <item>Americans Are More Afraid of Robots Than Death</item>
+        <item>Triple Zero callers at risk because of unreliable technology</item>
+    </string-array>
+</resources>

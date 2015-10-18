@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/news_pic"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pic_1"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/news_pic"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="News Title"
+        android:layout_alignTop="@+id/news_pic"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Time"
+        android:id="@+id/txtTime"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/news_title"
+        android:layout_toEndOf="@+id/news_pic" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/news_pic"
+        android:id="@+id/view1">
+    </View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        android:layout_below="@+id/view1"
+        android:id="@+id/view2">
+    </View>
+
+
+</RelativeLayout>
